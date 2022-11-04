@@ -27,4 +27,4 @@ export const yargObj = yargs(process.argv.slice(2))
   .default(options.default)
   .alias(options.alias).argv;
 
-module.exports = { yargObj };
+// export = { yargObj };
